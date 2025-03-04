@@ -1,0 +1,62 @@
+/* تنظیمات کلی صفحه */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* جعبه اصلی فرم */
+.form-container {
+  width: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* استایل استپر (Stepper) */
+.MuiStepper-root {
+  margin-bottom: 20px;
+}
+
+/* استایل فیلدهای ورودی */
+.MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+/* گروه دکمه‌ها */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* دکمه‌ها */
+button {
+  min-width: 100px;
+}
+
+/* دکمه ارسال */
+button[color="success"] {
+  background-color: #2e7d32 !important;
+}
+
+button[color="success"]:hover {
+  background-color: #1b5e20 !important;
+}
+
+/* دکمه بازگشت */
+button[color="primary"] {
+  background-color: #1976d2 !important;
+}
+
+button[color="primary"]:hover {
+  background-color: #115293 !important;
+}
+
+/* پیام‌های خطا */
+.MuiFormHelperText-root {
+  color: red !important;
+}

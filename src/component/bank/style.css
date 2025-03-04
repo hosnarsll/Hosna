@@ -1,0 +1,61 @@
+.container {
+  background-color: #0e263d; /* آبی نفتی */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+
+.form-container {
+  width: 500px;
+  background: rgb(191, 221, 216);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  color: #115293;
+  
+}
+.MuiStepper-root {
+  margin-bottom: 20px;
+}
+
+.MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+button {
+  min-width: 100px;
+}
+
+
+button[color="success"] {
+  background-color: rgb(27, 12, 231) !important;
+}
+
+button[color="success"]:hover {
+  background-color:rgb(2, 56, 218) !important;
+}
+
+
+button[color="primary"] {
+  background-color: #1976d2 !important;
+}
+
+button[color="primary"]:hover {
+  background-color: #115293 !important;
+}
+
+
+.MuiFormHelperText-root {
+  color: red !important;
+}
